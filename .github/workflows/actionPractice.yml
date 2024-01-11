@@ -34,3 +34,6 @@ jobs:
         run: |
           echo "Now ending build workflow."
           echo "Have a great day!"
+
+      - name: Output a message
+        run: echo "Action Complete!"
